@@ -29,7 +29,8 @@ import { ComponentsModule } from '../components/components.module';
     SharedModule,
     AppRoutingModule,
     FormsModule,
-    ComponentsModule
+    ComponentsModule,
+    
   ]
 })
 export class PagesModule { }
