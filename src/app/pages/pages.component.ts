@@ -8,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PagesComponent implements OnInit {
 
+  linkTheme = document.querySelector('#theme')
+  theme = localStorage.getItem('themeAngular');
   constructor() { }
 
   ngOnInit(): void {
+    const url= this.theme || `/assets/css/colors/purple-dark.css`;
+    
+    localStorage.setItem('themeAngular',url);
+    this.linkTheme?.setAttribute('href',url)
   }
 
 }

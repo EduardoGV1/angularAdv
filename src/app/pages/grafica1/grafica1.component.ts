@@ -22,9 +22,9 @@ export class Grafica1Component {
     title:'GRAFICO DOS',
     labels:['Venta 2','Egreso 2','Salida 2'],
     data:[10,20,30],
-    backgroundColor:[],
+    backgroundColor:['#26c24a','#c7da11','#da6311'],
     borderColor:'',
-    hoverBackgroundColor:[],
+    hoverBackgroundColor:['#7a9565','#90925a','#a77857'],
     spacing:1
   }
 
@@ -35,7 +35,7 @@ export class Grafica1Component {
     backgroundColor:[],
     borderColor:'',
     hoverBackgroundColor:[],
-    spacing:20
+    spacing:10
   }
 
   grafico4 = {

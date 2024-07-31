@@ -37,6 +37,8 @@ export class DonaComponent implements OnChanges{
 
   ngOnChanges(changes: SimpleChanges): void {
     console.log(changes);
+    console.log(this.backgroundColor);
+    
     
     this.doughnutChartData={
     
